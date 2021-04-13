@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('./images/colorWheel.jpg')center/cover no-repeat;
+}
+
+.btn{
+    position: absolute;
+    padding: 0.5em 1.5em;
+    margin: 0;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+    font-size: 1.1em;
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.61);
+    cursor: pointer;
+} 
+
+.btn:active{
+    transform: scale(0.98);
+}
+
+.images{
+    background: url('./images/image-0.jpg')center/cover no-repeat;
+     flex: 0 0 90%;
+     min-height: 90vh;
+    border-radius: 12px;
+    box-shadow: 2px 3px 8px 5px rgba(0, 0, 0, 0.952);
+    position: relative;
+}
+
+.next{
+    left: 92%;
+    top: 43%;
+}
+
+.previous{
+    top: 43%;
+    left: -2.2em;
+}
